@@ -4685,5 +4685,22 @@ input, select, textarea {
 			box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
 			visibility: visible;
 		}
-
+		
+	.videowrapper {
+		position: relative;
+		padding-bottom: 56.25%;
+		padding-top: 25px;
+		height: 0px;
 	}
+
+	.videowrapper iframe{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		height: 100%;
+		width: 100%;
+	} 
+}
+
